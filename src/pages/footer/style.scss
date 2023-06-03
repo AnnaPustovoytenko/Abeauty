@@ -1,0 +1,91 @@
+.footer {
+  .Contacti {
+    position: absolute;
+    width: 142px;
+    height: 23px;
+    left: 904px;
+    top: 11px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+
+.naz {
+  position: relative;
+  width: 0px;
+  height: 195px;
+  left: 105px;
+  top: 19px;
+  margin-bottom: 37px;
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: #122947;
+}
+
+.tex {
+  position: relative;
+  width: 256px;
+  height: 39px;
+  left: 102px;
+  top: 38px;
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 145%;
+  align-items: center;
+  text-align: left;
+  color: #122947;
+}
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #f7d3d3;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+
+    &__menu {
+      display: flex;
+      align-items: center;
+  
+    
+    
+
+      img {
+        width: 100px;
+        height: auto;
+        margin-right: 30px;
+      }
+  
+      .str {
+        
+        margin-right: 30px;
+  
+        a {
+          color: rgb(0, 0, 0);
+          text-decoration: none;
+          font-size: 14px;
+          transition: color 0.3s ease;
+  
+          &:hover {
+            color: #ccc;
+          }
+        }
+      }
+    }
+  }
