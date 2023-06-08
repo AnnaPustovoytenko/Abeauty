@@ -137,7 +137,7 @@
   width: 228px;
   height: 228px;
   left: 153px;
-  top: 1768px;
+  top: 1718px;
 }
 
 .g2 {
@@ -145,7 +145,7 @@
   width: 228px;
   height: 228px;
   left: 380px;
-  top: 1768px;
+  top: 1718px;
 }
 
 .g3 {
@@ -153,7 +153,7 @@
   width: 228px;
   height: 228px;
   left: 153px;
-  top: 1995px;
+  top: 1945px;
 }
 
 .g4 {
@@ -161,7 +161,7 @@
   width: 228px;
   height: 228px;
   left: 380px;
-  top: 1995px;
+  top: 1945px;
 }
 
 .contact {
@@ -174,10 +174,10 @@
 
 .Cont {
   position: absolute;
-  width: 350px;
-  height: 350px;
-  left: 819px;
-  top: 323px;
+  width: 383px;
+  height: 382px;
+  left: 793px;
+  top: 262px;
 }
 
 
@@ -186,7 +186,7 @@
   width: 483px;
   height: 23px;
   left: 846px;
-  top: 1945px;
+  top: 1927px;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 26px;
@@ -234,7 +234,7 @@ position: absolute;
     height: 41px;
     left: 44%;
     top: 872px;
-    background-color: #f7d3d3;
+    background-color: #FFE4E1;
     color: black;
     border: 2px solid #fac2c2;
 }
@@ -246,19 +246,27 @@ position: absolute;
   height: 45px;
   left: 894px;
   top: 2048px;
-  background-color: #f7d3d3;
+  background-color: #FFE4E1;
   color: black;
   border: 2px solid #fac2c2;
 }
 
 .but:hover,
 .but1:hover {
-  background-color: #fac2c2;
+  background-color: #FFE4E1;
   color: white;
 }
 
 .line {
-  border-bottom: 10px solid #f7d3d3; 
+  border-bottom: 10px solid #FFE4E1; 
   width: 100%;/* Параметры линии */
+ }
+
+ .otstup0{
+  position: absolute;
+  width: 207px;
+  height: 45px;
+  left: 100px;
+  top: 2230px;
  }
 

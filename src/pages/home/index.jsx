@@ -25,8 +25,8 @@ const HomePage = () => {
           </div>
           <div className="Best">Продукты, завоевавшие любовь наших клиентов</div>
           <img className={'kartinki11'} src={'/images/p_1.png'}></img>
-          <img className={'kartinki12'} src={'/images/p_2 1.png'}></img>
-          <img className={'kartinki13'} src={'/images/p_3 1.png'}></img>
+          <img className={'kartinki12'} src={'/images/p_2.png'}></img>
+          <img className={'kartinki13'} src={'/images/p_3.png'}></img>
          <div className="Best1">Косметика – философия женщин!</div>
         </div>
         <button className={'but01'}>Подробнее</button>
@@ -43,16 +43,16 @@ const HomePage = () => {
             Макияж лишь один из способов.
           </div>
           <img className={'g1'} src={'/images/g1.png'}></img>
-          <img className={'g2'} src={'/images/g2.png'}></img>
-          <img className={'g3'} src={'/images/g3png'}></img>
+          <img className={'g2'} src={'/images/g3.png'}></img>
+          <img className={'g3'} src={'/images/g2.png'}></img>
           <img className={'g4'} src={'/images/g4.png'}></img>
         </div>
         <div className={'contact'}>
-          <img className={'Cont'} src={'/images/Rectangle 38.png'}></img>
+          <img className={'Cont'} src={'/images/38.png'}></img>
           
         </div>
+        <h1 class="otstup0">Неважно</h1>    
       </div>
-      
       <div className={'footer'}>
       </div>
     </div>

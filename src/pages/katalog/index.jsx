@@ -19,15 +19,15 @@ const KatalogPage = () => {
         <h3 className="product">Каталог косметики</h3>
         <div className={'tovars'}>
           <div className={'tovar'}>
-            <img className={'t1'} src={'/images/g1.png'}></img>
+            <img className={'t1'} src={'/images/t1.png'}></img>
             <table>
               <tr>
                 <th>Sun</th>
-                <th>90pуб</th>
+                <th>990pуб</th>
               </tr>
               <tr>
-                <td>бомбочка для ванны</td>
-                <td>20g</td>
+                <td>Масло для тела</td>
+                <td>100g</td>
               </tr>
             </table>
             <div>
@@ -38,11 +38,11 @@ const KatalogPage = () => {
             <img className={'t2'} src={'/images/t2.png'}></img>
             <table>
               <tr>
-                <th>Levender</th>
-                <th>290pуб</th>
+                <th>Lava</th>
+                <th>390pуб</th>
               </tr>
               <tr>
-                <td>мыло ручной работы</td>
+                <td>Мыло рдля лица</td>
                 <td>50g</td>
               </tr>
             </table>
@@ -54,12 +54,12 @@ const KatalogPage = () => {
             <img className={'t3'} src={'/images/t3.png'}></img>
             <table>
               <tr>
-                <th>Lotos</th>
-                <th>890pуб</th>
+                <th>Sakura</th>
+                <th>1090pуб</th>
               </tr>
               <tr>
-                <td>маска для лица</td>
-                <td>50ml</td>
+                <td>Лосьон для тела</td>
+                <td>150ml</td>
               </tr>
             </table>
             <div>
@@ -70,12 +70,12 @@ const KatalogPage = () => {
             <img className={'t4'} src={'/images/t4.png'}></img>
             <table>
               <tr>
-                <th>Coconut</th>
-                <th>990pуб</th>
+                <th>Nova</th>
+                <th>790pуб</th>
               </tr>
               <tr>
-                <td>масло для тела</td>
-                <td>300ml</td>
+                <td>Молочко для тела</td>
+                <td>200ml</td>
               </tr>
             </table>
             <div>
@@ -86,12 +86,12 @@ const KatalogPage = () => {
             <img className={'t5'} src={'/images/t5.png'}></img>
             <table>
               <tr>
-                <th>Clean</th>
+                <th>Luna</th>
                 <th>490pуб</th>
               </tr>
               <tr>
-                <td>маска для лица</td>
-                <td>100g</td>
+                <td>Пудра</td>
+                <td>50g</td>
               </tr>
             </table>
             <div>
@@ -102,12 +102,12 @@ const KatalogPage = () => {
             <img className={'t6'} src={'/images/t6.png'}></img>
             <table>
               <tr>
-                <th>Violet</th>
-                <th>890pуб</th>
+                <th>Tina</th>
+                <th>490pуб</th>
               </tr>
               <tr>
-                <td>крем для лица</td>
-                <td>50ml</td>
+                <td>Крем против морщин</td>
+                <td>150ml</td>
               </tr>
             </table>
             <div>
@@ -118,12 +118,12 @@ const KatalogPage = () => {
             <img className={'t7'} src={'/images/t7.png'}></img>
             <table>
               <tr>
-                <th>Paradise</th>
-                <th>590pуб</th>
+                <th>Didi</th>
+                <th>890pуб</th>
               </tr>
               <tr>
-                <td>минеральная пудра</td>
-                <td>15g</td>
+                <td>Крем для рук</td>
+                <td>80ml</td>
               </tr>
             </table>
             <div>
@@ -134,12 +134,12 @@ const KatalogPage = () => {
             <img className={'t8'} src={'/images/t8.png'}></img>
             <table>
               <tr>
-                <th>Milk</th>
-                <th>790pуб</th>
+                <th>Star</th>
+                <th>1190pуб</th>
               </tr>
               <tr>
-                <td>масло для тела</td>
-                <td>150ml</td>
+                <td>Мыло целебное</td>
+                <td>300g</td>
               </tr>
             </table>
             <div>
@@ -150,12 +150,12 @@ const KatalogPage = () => {
             <img className={'t9'} src={'/images/t9.png'}></img>
             <table>
               <tr>
-                <th>Rose</th>
-                <th>890pуб</th>
+                <th>Alli</th>
+                <th>390pуб</th>
               </tr>
               <tr>
-                <td>крем для лица</td>
-                <td>50ml</td>
+                <td>Тоник</td>
+                <td>450ml</td>
               </tr>
             </table>
             <div>
@@ -164,7 +164,8 @@ const KatalogPage = () => {
               </button>
             </div>
           </div>
-        </div>     
+        </div> 
+        <h1 class="otstup">Неважно</h1>    
       </div>
     </div>
   )

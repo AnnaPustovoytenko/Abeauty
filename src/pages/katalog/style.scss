@@ -34,13 +34,13 @@
     text-align: center;
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 33px;
     line-height: 24px;
     color: #000000;
   }
 
   .Podrob:hover {
-    background-color: #f7d3d3;
+    background-color: #FFE4E1;
     color: white;
   }
 
@@ -105,16 +105,25 @@
     height: 45px;
     left: 100px;
     top: 410px;
-    background-color: #f7d3d3;
+    background-color: #FFE4E1;
     color: black;
     border: 2px solid #fac2c2;
   }
 
 
   .line {
-    border-bottom: 10px solid #f7d3d3; 
+    border-bottom: 10px solid #FFE4E1; 
     width: 100%;/* Параметры линии */
    }
+
+   .otstup{
+    position: absolute;
+    width: 207px;
+    height: 45px;
+    left: 100px;
+    top: 2010px;
+   }
+
 
   
 

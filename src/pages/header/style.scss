@@ -4,7 +4,7 @@
   display: flex;
 
   &__menu {
-    flex: 4;
+    flex: 7;
     display: flex;
 
     > div {
@@ -15,7 +15,7 @@
         padding-right: 35px;
         font-family: 'M PLUS 1p', sans-serif;
         font-style: normal;
-        font-size: 16px;
+        font-size: 20px;
         line-height: 24px;
         align-items: center;
         color: #122947;
@@ -29,7 +29,7 @@
   &__logo {
     flex: 2 1;
     display: flex;
-    margin-left: 12%;
+    margin-left: 5%;
     width: 10px;
     height: 42px;
   }
