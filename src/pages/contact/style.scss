@@ -103,3 +103,99 @@
   top: 133px;
   background: #FFE4E1;
 }
+
+@media (max-width: 1200px) {
+ 
+  .Kar11 {
+    position: absolute;
+    width: 58%;
+    height: 105%;
+    left: 157px;
+    top: -48px;
+  }
+  
+  .naz11 {
+    position: relative;
+    width: 97px;
+    height: 13px;
+    left: 36px;
+    top: 69px;
+    margin-bottom: 35px;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    display: flex;
+    text-align: left;
+    color: rgb(18, 41, 71);
+  }
+  
+  .tex11 {
+    position: relative;
+    width: 151px;
+    height: 39px;
+    left: 38px;
+    top: 59px;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.45;
+    display: flex;
+    text-align: left;
+    color: #122947;
+  }
+  
+  .Contacti11 {
+    position: absolute;
+    width: 142px;
+    height: 23px;
+    left: 34px;
+    top: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #122947;
+  }
+ 
+  .Pr03 {
+    position: absolute;
+    width: 253px;
+    height: 23px;
+    left: 34px;
+    top: 383px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #122947;
+  }
+  .Pr103 {
+    position: absolute;
+    width: 339px;
+    height: 23px;
+    left: 36px;
+    top: 425px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    align-items: center;
+    text-align: left;
+    color: #122947;
+    padding-bottom: 180px;
+  }
+  
+  .but3 {
+    position: absolute;
+    width: 185px;
+    height: 36px;
+    left: 35px;
+    top: 473px;
+    background-color: #ffe4e1;
+    color: black;
+    border: 2px solid #ffc6c0;
+  }  
+}

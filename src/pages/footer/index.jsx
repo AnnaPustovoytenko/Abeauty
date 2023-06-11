@@ -12,7 +12,7 @@ export const FooterPage = () => {
           <Link to={'/'}>Главная </Link>
         </p>
         <p className={'str'}>
-          <Link to={'/ONas'}>О компании </Link>
+          <Link to={'/ONas'}>Компания </Link>
         </p>
         <p className={'str'}>
           <Link to={'/Skidki'}>Скидки </Link>
@@ -23,14 +23,15 @@ export const FooterPage = () => {
         <p className={'str'}>
           <Link to={'/katalog'}>Каталог </Link>
         </p>
-      </div>
-      <div className={'Contacti'}>Контакты</div>
+        <div className={'Contacti'}>Контакты</div>
           <div className={'naz'}>Адрес</div>
           <div className={'tex'}> ул. Ленинап, 46</div>
           <div className={'naz'}>Телефон</div>
           <div className={'tex'}>+7 (923) 888-99-66</div>
           <div className={'naz'}>E-mail</div>
           <div className={'tex'}>info@A'beauty.ru</div>
-    </div>
+        </div>
+      </div>
+
   )
 }

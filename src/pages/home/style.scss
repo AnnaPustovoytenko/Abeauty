@@ -270,3 +270,275 @@ position: absolute;
   top: 2230px;
  }
 
+
+ @media (max-width: 1200px){
+  .medium-text {
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    left: 73px;
+    top: 164px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 68px;
+    display: flex;
+    align-items: center;
+    color: #122947;
+  }
+
+  .medium-text-text {
+    position: absolute;
+    width: 326px;
+    height: 120px;
+    left: 14px;
+    top: 227px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 31px;
+    display: flex;
+    text-align: center;
+    color: #122947;
+  }
+
+  .kartinki01 {
+    position: absolute;
+    width: 145px;
+    height: 155px;
+    left: 5%;
+    top: 415px;
+  }
+
+  .kartinki2 {
+    position: absolute;
+    width: 145px;
+    height: 155px;
+    left: 31%;
+    top: 532px;
+  }
+
+  .kartinki3 {
+    position: absolute;
+    width: 151px;
+    height: 168px;
+    left: 58%;
+    top: 645px;
+  }
+
+  .kartinki04 {
+    position: absolute;
+    width: 100%;
+    height: 2%;
+    top: 962px;
+  }
+
+  .kartinki11 {
+    position: absolute;
+    width: 113px;
+    height: 142px;
+    left: 6px;
+    top: 1064px;
+  }
+
+  .kartinki12 {
+    position: absolute;
+    width: 115px;
+    height: 144px;
+    left: 126px;
+    top: 1063px;
+  }
+
+  .kartinki13 {
+    position: absolute;
+    width: 113px;
+    height: 142px;
+    left: 249px;
+    top: 1063px;
+  }
+
+
+  .Best {
+    position: absolute;
+    width: 324px;
+    height: 13px;
+    left: 18px;
+    top: 997px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 128%;
+    text-align: left;
+    color: #122947;
+  }
+
+  .Best1 {
+    position: absolute;
+    width: 330px;
+    height: 23px;
+    left: 18px;
+    top: 1242px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 121%;
+    text-align: left;
+    color: #122947;
+  }
+
+
+  .pod0 {
+    position: absolute;
+    width: 339px;
+    height: 39px;
+    left: 8px;
+    top: 904px;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 151%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #122947;
+  }
+
+  .g1 {
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 6px;
+    top: 1544px;
+  }
+
+  .g2 {
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 120px;
+    top: 1544px;
+  }
+
+  .g3 {
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 6px;
+    top: 1658px;
+  }
+
+  .g4 {
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 120px;
+    top: 1658px;
+  }
+
+  .contact {
+    position: absolute;
+    width: 80px;
+    height: 43px;
+    left: 19px;
+    top: 1250px;
+  }
+
+  .Cont {
+    position: absolute;
+    width: 183px;
+    height: 200px;
+    left: 162px;
+    top: 35px;
+  }
+
+
+  .Pr {
+    position: absolute;
+    width: 135px;
+    height: 23px;
+    left: 236px;
+    top: 1564px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 133%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #122947;
+  }
+
+  .Pr1 {
+    position: absolute;
+    width: 135px;
+    height: 38px;
+    left: 240px;
+    top: 1637px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: revert;
+    color: #122947;
+  }
+
+  .Pr2 {
+    position: absolute;
+    width: 148px;
+    height: 15px;
+    left: 15px;
+    top: 1389px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 121%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #122947;
+  }
+
+  .but {
+    position: absolute;
+    width: 160px;
+    height: 35px;
+    left: 26%;
+    top: 845px;
+    background-color: #FFE4E1;
+    color: black;
+    border: 2px solid #fac2c2;
+  }
+
+
+  .but01 {
+    position: absolute;
+    width: 124px;
+    height: 27px;
+    left: 245px;
+    top: 1736px;
+    background-color: #FFE4E1;
+    color: black;
+    border: 2px solid #fac2c2;
+  }
+
+  .but:hover,
+  .but1:hover {
+    background-color: #FFE4E1;
+    color: white;
+  }
+
+  .line {
+    border-bottom: 10px solid #FFE4E1; 
+    width: 100%;/* Параметры линии */
+  }
+
+  .otstup0{
+    position: absolute;
+    width: 207px;
+    height: 45px;
+    left: 100px;
+    top: 1930px;
+  }
+}

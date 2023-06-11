@@ -1,49 +1,4 @@
 .footer {
-  .Contacti {
-    position: absolute;
-    width: 142px;
-    height: 23px;
-    left: 904px;
-    top: 11px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 100;
-    font-size: 24px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-  }
-
-.naz {
-  position: relative;
-  width: 145px;
-  height: 195px;
-  left: 127px;
-  top: 17px;
-  margin-bottom: 37px;
-  font-family: "M PLUS 1p", sans-serif;
-  font-size: 16px;
-  line-height: 100%;
-  display: flex;
-  align-items: center;
-  text-align: left;
-  color: #122947;
-}
-
-.tex {
-  position: relative;
-  width: 256px;
-  height: 39px;
-  left: 13px;
-  top: 38px;
-  font-family: "M PLUS 1p", sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 145%;
-  align-items: center;
-  text-align: left;
-  color: #122947;
-}
-
     position: fixed;
     bottom: 0;
     left: 0;
@@ -54,7 +9,7 @@
     text-align: right;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
   
     
 
@@ -62,7 +17,50 @@
       display: flex;
       align-items: center;
 
-    
+          .Contacti {
+          position: absolute;
+          width: 33px;
+          height: 36px;
+          left: 968px;
+          top: 11px;
+          font-family: "Raleway", sans-serif;
+          font-weight: 100;
+          font-size: 24px;
+          display: flex;
+          align-items: center;
+          color: #211233;
+        }
+
+        .naz {
+          position: relative;
+          width: 0px;
+          height: 159px;
+          left: 106px;
+          top: 23px;
+          margin-bottom: 37px;
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 16px;
+          line-height: 100%;
+          display: flex;
+          align-items: center;
+          text-align: left;
+          color: #122947;
+        }
+
+        .tex {
+          position: relative;
+          width: 277px;
+          height: 33px;
+          left: 82px;
+          top: 38px;
+          font-family: "M PLUS 1p", sans-serif;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 132%;
+          align-items: center;
+          text-align: left;
+          color: #122947;
+        }
     
 
       img {
@@ -78,13 +76,83 @@
         a {
           color: rgb(0, 0, 0);
           text-decoration: none;
-          font-size: 14px;
+          font-size: 17px;
           transition: color 0.3s ease;
   
           &:hover {
-            color: #ccc;
+            color: #ffabab;
           }
         }
       }
     }
   }
+
+  @media (max-width: 1200px) {
+    .footer {
+      display: flex;
+      flex-wrap: wrap;
+      height: auto;
+      min-height: auto;
+      padding: 10px 0;
+      justify-content: flex-start;
+
+      .Contacti {
+        position: absolute;
+        width: 1px;
+        height: 19px;
+        left: 144px;
+        top: 104px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 100;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        color: #211233;
+      }
+
+      .naz {
+        position: relative;
+        width: 0px;
+        height: 7px;
+        left: -318px;
+        top: 68px;
+        margin-bottom: 30px;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 14px;
+        line-height: 100%;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        color: #122947;
+      }
+      .tex {
+        position: relative;
+        width: 126px;
+        height: 30px;
+        left: -332px;
+        top: 80px;
+        font-family: "M PLUS 1p", sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 100%;
+        align-items: center;
+        text-align: left;
+        color: #122947;
+    }
+    }
+  
+    .footer__menu {
+      flex-direction: row;
+    }
+  
+    .footer__menu img {
+      width: 121px;
+      margin-bottom: 69px;
+      margin-right: -111px;
+    }
+  
+    .footer__menu .str {
+      margin-right: 1px;
+      margin-bottom: 1px;
+    }
+}
